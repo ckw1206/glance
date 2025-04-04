@@ -12,7 +12,15 @@ services:
     ports:
       - 8080:8080
     env_file: .env
+<<<<<<< HEAD
 volumes:
   glance_config: {}
   docker.sock: {}
   glance_assets: {}
+=======
+
+volumes:
+  glance_config: {}
+  glance_assets: {}
+  docker.sock: {}
+>>>>>>> 6affb1d (update)
