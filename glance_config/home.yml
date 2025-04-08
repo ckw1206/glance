@@ -30,6 +30,7 @@
             - type: lobsters
 
         - type: videos
+          style: grid-cards
           channels:
             - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
             - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
@@ -40,15 +41,6 @@
             - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
             - UCD_cg9Tak9SvlPHRsWxUIpA # BigEarTV
             - UCWqIDhUQ5Q8YG8WDlC4oV3g # Yoshinori Imamura / Latte Art & Barista Training
-
-        - type: group
-          widgets:
-            - type: reddit
-              subreddit: technology
-              show-thumbnails: true
-            - type: reddit
-              subreddit: selfhosted
-              show-thumbnails: true
 
     - size: small
       widgets:
@@ -61,10 +53,20 @@
 
         - type: markets
           markets:
+            - symbol: ^TWII
+              name: 台權指
+            - symbol: 2330.TW
+              name: TSMC
+            - symbol: 0050.TW
+              name: 元大台50基金
+            - symbol: 006208.TW
+              name: 富邦台50基金 
             - symbol: SPY
               name: S&P 500
             - symbol: QQQ
               name: QQQ
+            - symbol: NVDA
+              name: NVIDIA
             - symbol: BTC-USD
               name: Bitcoin
 
@@ -73,7 +75,7 @@
           title: Services
           sites:
             - title: OpenWRT
-              url: https://172.10.168.1
+              url: https://router.kylelabs.xyz
               icon: si:openwrt
               allow-insecure: true
             - title: WireGuard
@@ -81,6 +83,20 @@
               icon: si:wireguard
               allow-insecure: true
             - title: Cockpit-Podman
-              url: http://172.10.169.3:9090
+              url: https://podman.kylelabs.xyz
+              icon: si:podman
+              allow-insecure: true
+            - title: Nginx Proxy Manger
+              url: https://npm.kylelabs.xyz
+              icon: si:nginxproxymanager
+              alt-status-codes:
+                - 403
+            - title: NPM Log Center
+              url: https://npm-accesslog.kylelabs.xyz
+              icon: si:nginxproxymanager
+              alt-status-codes:
+                - 403
+            - title: Maybe
+              url: https://finance.kylelabs.xyz
               icon: si:podman
               allow-insecure: true

@@ -2,20 +2,7 @@ services:
   glance:
     container_name: glance
     image: glanceapp/glance
-    volumes:
-<<<<<<< HEAD
-      - .glance_config:/app/config
-      - .glance_assets:/app/assets
       # Optionally, also mount docker socket if you want to use the docker containers widget
-      - .docker.sock:/var/run/docker.sock
-    ports:
-      - 9080:8080
-    env_file: .env
-volumes:
-  glance_config: {}
-  docker.sock: {}
-  glance_assets: {}
-=======
       - ./glance_config:/app/config
       - ./glance_assets:/app/assets
     ports:
@@ -25,4 +12,3 @@ volumes:
 volumes:
   glance_config: {}
   glance_asset: {}
->>>>>>> e9a8290 (update)
