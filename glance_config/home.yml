@@ -12,14 +12,12 @@
           collapse-after: 3
           cache: 12h
           feeds:
-            - url: https://selfh.st/rss/
-              title: selfh.st
+            - url: https://api.taiwantoday.tw/en/rss.php?unit=2,6,10,15,18
+            - url: https://api.taiwantoday.tw/en/rss.php?unit=4,8,12,17,20
+            - url: https://nvidianews.nvidia.com/releases.xml
+            - url: https://feeds.feedburner.com/nvidiablog
             - url: https://ciechanow.ski/atom.xml
-            - url: https://www.joshwcomeau.com/rss.xml
-              title: Josh Comeau
             - url: https://samwho.dev/rss.xml
-            - url: https://ishadeed.com/feed.xml
-              title: Ahmad Shadeed
 
 
     - size: full
@@ -94,7 +92,7 @@
               icon: si:nginxproxymanager
               alt-status-codes:
                 - 403
-            - title: Maybe
+            - title: Sure
               url: https://finance.kylelabs.xyz
               icon: si:podman
               allow-insecure: true

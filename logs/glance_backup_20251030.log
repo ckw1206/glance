@@ -1,0 +1,62 @@
+2025-10-30 10:02:16 [INFO] Stopping Glance related services...
+ Container glance  Stopping
+ Container glance  Stopped
+ Container glance  Removing
+ Container glance  Removed
+ Network glance_default  Removing
+ Network glance_default  Removed
+2025-10-30 10:02:16 [OK] Services stopped successfully.
+2025-10-30 10:02:16 [INFO] Preparing Git branch for backup: 1030
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+2025-10-30 10:02:16 [INFO] Branch 1030 does not exist. Creating new branch...
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+2025-10-30 10:02:16 [INFO] Committing changes...
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+2025-10-30 10:02:16 [INFO] No changes to commit.
+2025-10-30 10:02:16 [INFO] Pushing changes to GitHub branch 1030...
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+2025-10-30 10:02:16 [ERROR] Failed to push to GitHub.
+2025-10-30 10:02:41 [INFO] Stopping Glance related services...
+2025-10-30 10:02:42 [OK] Services stopped successfully.
+2025-10-30 10:02:42 [INFO] Preparing Git branch for backup: 1030
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+2025-10-30 10:02:42 [INFO] Branch 1030 does not exist. Creating new branch...
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+2025-10-30 10:02:42 [INFO] Committing changes...
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+2025-10-30 10:02:42 [INFO] No changes to commit.
+2025-10-30 10:02:42 [INFO] Pushing changes to GitHub branch 1030...
+fatal: detected dubious ownership in repository at '/home/opc/glance'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/opc/glance
+2025-10-30 10:02:42 [ERROR] Failed to push to GitHub.
