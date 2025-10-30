@@ -20,7 +20,7 @@ log() {
 BRANCH_NAME=$(date +'%m%d')
 
 log "INFO" "Stopping Glance related services..."
-if docker compose down >>"$LOG_FILE" 2>&1; then
+if sudo docker compose down >>"$LOG_FILE" 2>&1; then
     log "OK" "Services stopped successfully."
 else
     log "ERROR" "Failed to stop services with docker compose."
@@ -60,7 +60,7 @@ fi
 
 # Restart services
 log "INFO" "Restarting Glance services..."
-if docker compose up -d >>"$LOG_FILE" 2>&1; then
+if sudo docker compose up -d >>"$LOG_FILE" 2>&1; then
     log "OK" "Services restarted successfully."
 else
     log "ERROR" "Failed to restart services."
