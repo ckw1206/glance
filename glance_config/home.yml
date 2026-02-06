@@ -96,6 +96,10 @@
               url: https://finance.kylelabs.xyz
               icon: si:podman
               allow-insecure: true
+            - title: Glances
+              icon: si:glances
+              url: https://glances.kylelabs.xyz
+              allow-insecure: true
             - title: AI
               url: https://ai.kylelabs.xyz
               icon: si:chatbot
