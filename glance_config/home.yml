@@ -97,7 +97,7 @@
               icon: si:podman
               allow-insecure: true
             - title: Glances
-              icon: si:glances
+              icon: si:linux
               url: https://glances.kylelabs.xyz
               allow-insecure: true
             - title: AI
