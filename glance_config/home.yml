@@ -96,3 +96,7 @@
               url: https://finance.kylelabs.xyz
               icon: si:podman
               allow-insecure: true
+            - title: AI
+              url: https://ai.kylelabs.xyz
+              icon: si:chatbot
+              allow-insecure: true
