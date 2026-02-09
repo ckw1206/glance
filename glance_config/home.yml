@@ -71,7 +71,7 @@
           title: Services
           sites:
             - title: OpenWRT
-              url: https://router.kylelabs.xyz
+              url: https://router.kylelabs.site
               icon: si:openwrt
               allow-insecure: true
             - title: WireGuard
@@ -79,28 +79,28 @@
               icon: si:wireguard
               allow-insecure: true
             - title: Cockpit-Podman
-              url: https://podman.kylelabs.xyz
+              url: https://podman.kylelabs.site
               icon: si:podman
               allow-insecure: true
             - title: Nginx Proxy Manger
-              url: https://npm.kylelabs.xyz
+              url: https://npm.kylelabs.site
               icon: si:nginxproxymanager
               alt-status-codes:
                 - 403
             - title: NPM Log Center
-              url: https://npm-accesslog.kylelabs.xyz
+              url: https://npm-accesslog.kylelabs.site
               icon: si:nginxproxymanager
               alt-status-codes:
                 - 403
             - title: Sure
-              url: https://finance.kylelabs.xyz
+              url: https://finance.kylelabs.site
               icon: si:podman
               allow-insecure: true
             - title: Glances
               icon: si:linux
-              url: https://glances.kylelabs.xyz
+              url: https://glances.kylelabs.site
               allow-insecure: true
             - title: AI
-              url: https://ai.kylelabs.xyz
+              url: https://ai.kylelabs.site
               icon: si:chatbot
               allow-insecure: true
