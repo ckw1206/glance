@@ -100,3 +100,7 @@
               url: https://ai.kylelabs.site
               icon: si:chatbot
               allow-insecure: true
+            - title: OpenClaw
+              url: https://openclaw.kylelabs.site
+              icon: si:lmms
+              allow-insecure: true
