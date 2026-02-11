@@ -1,45 +1,12 @@
-- name: Home
+- name: wallpaper
   # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
   # hide-desktop-navigation: true
   columns:
-    - size: small
+    - size: full
       widgets:
         - type: calendar
           first-day-of-week: monday
 
-        - type: rss
-          limit: 10
-          collapse-after: 3
-          cache: 12h
-          feeds:
-            - url: https://api.taiwantoday.tw/en/rss.php?unit=2,6,10,15,18
-            - url: https://api.taiwantoday.tw/en/rss.php?unit=4,8,12,17,20
-            - url: https://nvidianews.nvidia.com/releases.xml
-            - url: https://feeds.feedburner.com/nvidiablog
-            - url: https://ciechanow.ski/atom.xml
-            - url: https://samwho.dev/rss.xml
-
-
-    - size: full
-      widgets:
-        - type: group
-          widgets:
-            - type: hacker-news
-            - type: lobsters
-
-        - type: videos
-          style: grid-cards
-          channels:
-            - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
-            - UCsBjURrPoezykLs9EqgamOA # Fireship
-            - UCBJycsmduvYEL83R_U4JriQ # Marques Brownlee
-            - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
-            - UCD_cg9Tak9SvlPHRsWxUIpA # BigEarTV
-            - UCWqIDhUQ5Q8YG8WDlC4oV3g # Yoshinori Imamura / Latte Art & Barista Training
-            - UCVSx3y-fbFMatAwJYYSNA5g # tommy oswald / HomeBoy Coffee Shop in Australia
-
-    - size: small
-      widgets:
         - type: weather
           location: Banqiao 
           units: metric # alternatively "imperial"
