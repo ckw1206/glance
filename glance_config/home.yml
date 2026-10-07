@@ -31,12 +31,12 @@
           style: grid-cards
           channels:
             - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
+            - UCVSx3y-fbFMatAwJYYSNA5g # tommy oswald / HomeBoy Coffee Shop in Australia
             - UCsBjURrPoezykLs9EqgamOA # Fireship
             - UCBJycsmduvYEL83R_U4JriQ # Marques Brownlee
             - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
             - UCD_cg9Tak9SvlPHRsWxUIpA # BigEarTV
             - UCWqIDhUQ5Q8YG8WDlC4oV3g # Yoshinori Imamura / Latte Art & Barista Training
-            - UCVSx3y-fbFMatAwJYYSNA5g # tommy oswald / HomeBoy Coffee Shop in Australia
 
     - size: small
       widgets:
@@ -75,7 +75,9 @@
             - title: OpenWRT
               url: https://router.kylelabs.site
               icon: si:openwrt
-              allow-insecure: true
+              alt-status-codes:
+                - 403
+                - 401
             - title: WireGuard
               url: https://172.10.169.1
               icon: si:wireguard
@@ -85,24 +87,22 @@
               icon: si:nginxproxymanager
               alt-status-codes:
                 - 403
+                - 401
             - title: NPM Log Center
               url: https://npm-accesslog.kylelabs.site
               icon: si:nginxproxymanager
               alt-status-codes:
                 - 403
+                - 401
             - title: Sure
               url: https://finance.kylelabs.site
               icon: si:podman
-              allow-insecure: true
+              alt-status-codes:
+                - 403
+                - 401
             - title: Glances
               icon: si:linux
               url: https://glances.kylelabs.site
-              allow-insecure: true
-            - title: AI
-              url: https://ai.kylelabs.site
-              icon: si:chatbot
-              allow-insecure: true
-            - title: OpenClaw
-              url: https://openclaw.kylelabs.site
-              icon: si:lmms
-              allow-insecure: true
+              alt-status-codes:
+                - 403
+                - 401
